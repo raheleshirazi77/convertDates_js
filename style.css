@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(238, 100%, 75%);
+}
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.104);
+    border: 1px solid;
+    width: 50%;
+    height: 250px;
+    margin: 10% auto;
+    border-radius: 8px 12px 8px 12px;
+    -webkit-border-radius: 8px 12px 8px 12px;
+    -moz-border-radius: 8px 12px 8px 12px;
+    -ms-border-radius: 8px 12px 8px 12px;
+    -o-border-radius: 8px 12px 8px 12px;
+}
+h1 {
+    padding-top: 1px;
+    color: #fffeeb;
+    text-align: center;
+    margin: 10px;
+    
+    text-shadow: 0 2px 4px rgb(85, 89, 1);
+}
+label {
+    display: block;
+    font-weight: 900;
+    direction: rtl;
+    font-size: 25px;
+    margin: 0 auto;
+    color: aliceblue;
+    padding-top: 10px;
+}
+input[type="date"] {
+    padding: 5px;
+    margin: 10px auto;
+    background-color: rgb(208, 255, 0);
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    border-radius: 3px 9px 3px 9px;
+    -webkit-border-radius: 3px 9px 3px 9px;
+    -moz-border-radius: 3px 9px 3px 9px;
+    -ms-border-radius: 3px 9px 3px 9px;
+    -o-border-radius: 3px 9px 3px 9px;
+}
+button {
+    padding: 7px 20px;
+    background-color: #000001;
+    color: #fff200;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 7px 17px 7px 17px;
+    -webkit-border-radius: 7px 17px 7px 17px;
+    -moz-border-radius: 7px 17px 7px 17px;
+    -ms-border-radius: 7px 17px 7px 17px;
+    -o-border-radius: 7px 17px 7px 17px;
+    font-weight: 900;
+}
+button:hover {
+    background-color: #303900;
+    box-shadow: 0px 1px 5px 2px rgb(244, 235, 3);
+}
+#result {
+    font-weight: 900;
+    color: rgb(251, 251, 251);
+    text-shadow: 0 3px 4px black; 
+}
